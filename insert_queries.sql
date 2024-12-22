@@ -127,9 +127,6 @@ VALUES
 -- inserting into return table
 INSERT INTO return_status(return_id, issued_id, return_date) 
 VALUES
-('RS101', 'IS101', '2023-06-06'),
-('RS102', 'IS105', '2023-06-07'),
-('RS103', 'IS103', '2023-08-07'),
 ('RS104', 'IS106', '2024-05-01'),
 ('RS105', 'IS107', '2024-05-03'),
 ('RS106', 'IS108', '2024-05-05'),
@@ -145,6 +142,6 @@ VALUES
 ('RS116', 'IS118', '2024-05-25'),
 ('RS117', 'IS119', '2024-05-27'),
 ('RS118', 'IS120', '2024-05-29');
-SELECT * FROM issued_status;
+SELECT * FROM return_status;
 
 
